@@ -1,0 +1,16 @@
+# file: ansible/playbook.yml
+---
+ - hosts: all
+
+   roles:
+    - init
+    - httpd
+    - php56
+    ###- php70
+    - mysql
+    - phpmyadmin
+    - project
+    ###- java8
+    #- { role: elasticsearch, es_instance_name: "node1" }
+
+

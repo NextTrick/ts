@@ -1,0 +1,10 @@
+---
+mysql_user: projectuser
+mysql_password: projectpass
+
+database: ts_db
+
+#master_db_sql:
+#    - 000_db.sql    
+
+project_name: techstarter.pe
