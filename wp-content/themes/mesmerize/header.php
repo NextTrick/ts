@@ -14,7 +14,6 @@
 	<?php mesmerize_print_header_top_bar(); ?>
 	<?php mesmerize_get_navigation(); ?>
 </div>
-
 <div id="page" class="site">
     <div class="header-wrapper">
         <div <?php echo mesmerize_header_background_atts(); ?>>

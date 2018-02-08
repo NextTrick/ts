@@ -250,6 +250,8 @@ function mesmerize_get_footer_copyright()
 
     $copyrightText = sprintf($copyrightText, 'http://extendthemes.com/mesmerize');
 
+    $copyrightText = __('Todos los derechos reservados');
+
 
     $previewAtts = "";
 
